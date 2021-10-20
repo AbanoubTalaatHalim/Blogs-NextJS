@@ -1,11 +1,10 @@
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import React from "react";
 
-export default function Home() {
+const About = () => {
   return (
     <div class="card text-center">
       <div class="card-header">
-        <h5 class="card-title">Home</h5>
+        <h5 class="card-title">About</h5>
       </div>
       <div class="card-body">
         <p class="card-text">
@@ -28,4 +27,6 @@ export default function Home() {
       <div class="card-footer text-muted">.</div>
     </div>
   );
-}
+};
+
+export default About;
