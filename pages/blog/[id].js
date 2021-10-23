@@ -29,14 +29,14 @@ export const getStaticProps = async (context) => {
 
 const Post = ({ post }) => {
   return (
-    <div class="card text-center">
-      <div class="card-header">
-        <h5 class="card-title">{post.title}</h5>
+    <div className="card text-center">
+      <div className="card-header">
+        <h5 className="card-title">{post.title}</h5>
       </div>
-      <div class="card-body">
-        <p class="card-text"> {post.body}</p>
+      <div className="card-body">
+        <p className="card-text"> {post.body}</p>
       </div>
-      <div class="card-footer text-muted">.</div>
+      <div className="card-footer text-muted">.</div>
     </div>
   );
 };

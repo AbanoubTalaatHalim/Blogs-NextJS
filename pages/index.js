@@ -3,12 +3,12 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div class="card text-center">
-      <div class="card-header">
-        <h5 class="card-title">Home</h5>
+    <div className="card text-center">
+      <div className="card-header">
+        <h5 className="card-title">Home</h5>
       </div>
-      <div class="card-body">
-        <p class="card-text">
+      <div className="card-body">
+        <p className="card-text">
           {" "}
           Lorem ipsum dolor sit amet. Et cumque exercitationem est totam animi
           eos blanditiis omnis qui quod tempore eos iste modi. Ea necessitatibus
@@ -25,7 +25,7 @@ export default function Home() {
           tempore ut veniam quia.
         </p>
       </div>
-      <div class="card-footer text-muted">.</div>
+      <div className="card-footer text-muted">.</div>
     </div>
   );
 }
